@@ -71,9 +71,9 @@ guards generally:
 
 */
 
-var Seq = require('./seq');
-var Par = require('./par');
-var Rules = require('./rules');
+var Seq = require('bSn/seq');
+var Par = require('bSn/par');
+var Rules = require('bSn/rules');
 
 function MockMaker(tester) {
     this.tester = tester;
